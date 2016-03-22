@@ -8,6 +8,6 @@ namespace Demo1
 {
     public static class Constants
     {
-        public const string PoliceKey = "INSERT EVENT HUB DEVICE KEY";
+        public const string PoliceKey = "Inser Event Hub Policy Key";
     }
 }
