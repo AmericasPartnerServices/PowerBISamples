@@ -16,9 +16,9 @@ namespace Demo1
     {
         static void Main(string[] args)
         {
-            string eventHubName = "eventhubstreamtemperature";
-            string eventHubNamespace = "eumar-azurepa";
-            string sharedAccessPolicyName = "DevicePolicy";
+            string eventHubName = "devicemonitoring";
+            string eventHubNamespace = "eumariothub";
+            string sharedAccessPolicyName = "Default";
             string sharedAccessPolicyKey = Constants.PoliceKey;
 
 
@@ -73,6 +73,8 @@ namespace Demo1
                     {
                         PartitionKey = Device.DeviceID.ToString()
                     };
+
+                    //client.Send(data);
 
                     // Send the metric to Event Hub
                     tasks.Add(client.SendAsync(data));

@@ -1,0 +1,12 @@
+﻿SELECT
+	MAX (Electrical_power) AS elpower,
+	MAX (Voltage) AS voltage,
+	System.TimeStamp as time,
+	DeviceID
+INTO
+    [PowerBiOutput]
+FROM
+    [EventHubInput] TIMESTAMP BY time
+GROUP BY
+ TUMBLINGWINDOW (ss,1),
+ DeviceID
