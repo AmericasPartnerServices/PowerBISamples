@@ -8,9 +8,9 @@ namespace Samples.EventHubConsumer
 {
     public static class Constants
     {
-        public const string PoliceKey = "SWpUzKe0wQ3PWcsD2wijk66WeCAcciaputYyr79DsBs=";
+        public const string PoliceKey = "Insert your key";
 
-        public const string SharedKey = "sr=eumariothub.servicebus.windows.net&sig=mc1y5oDOodqJ6KmMs2qG7zvH6xbBMcr5KO+oXi0WT1Q=&se=1456736135&skn=writer";
+        public const string SharedKey = "sr=eumariothub.servicebus.windows.net&sig=Insert your key=&se=1456736135&skn=writer";
 
     }
 }

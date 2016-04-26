@@ -57,11 +57,11 @@ namespace Samples.EventHubConsumer
             List<Device> MyDevices = new List<Device>();
 
             List< KeyValuePair<string, string>> listKeys = new List<KeyValuePair<string,string>>();
-            listKeys.Add(new KeyValuePair<string, string>("device1", "SharedAccessSignature sr=https%3a%2f%2feumariothub.servicebus.windows.net%2fdevicemonitoring%2fpublishers%2f1%2fmessages&sig=Ro4AspaQtWFnYmkcxNcPAGnmwoeJU9llzUsZauSYPZg%3d&se=1460220109&skn=Default"));
-            listKeys.Add(new KeyValuePair<string, string>("device2", "SharedAccessSignature sr=https%3a%2f%2feumariothub.servicebus.windows.net%2fdevicemonitoring%2fpublishers%2f2%2fmessages&sig=7qUQGP3ytBju8amBLHnPojWlhPhAMIi4iJrQsf3jXVM%3d&se=1465172326&skn=Default"));
-            listKeys.Add(new KeyValuePair<string, string>("device3", "SharedAccessSignature sr=https%3a%2f%2feumariothub.servicebus.windows.net%2fdevicemonitoring%2fpublishers%2f3%2fmessages&sig=imW6JFIi9uDOOr%2bJlDmVQajAmZbmfL7MKkpJ724JqHc%3d&se=1465172448&skn=Default"));
-            listKeys.Add(new KeyValuePair<string, string>("device4", "SharedAccessSignature sr=https%3a%2f%2feumariothub.servicebus.windows.net%2fdevicemonitoring%2fpublishers%2f4%2fmessages&sig=vN2Gn8hqr24Vxy1%2fLFL4Pg0Ot3P2%2bjocC5q6UIRhAlQ%3d&se=1465172404&skn=Default"));
-            listKeys.Add(new KeyValuePair<string, string>("device5", "SharedAccessSignature sr=https%3a%2f%2feumariothub.servicebus.windows.net%2fdevicemonitoring%2fpublishers%2f5%2fmessages&sig=VJ7n59h%2by5xJXAPlXOwjv9QG1qNGZILfZwf2nsbPN10%3d&se=1465172478&skn=Default"));
+            listKeys.Add(new KeyValuePair<string, string>("device1", "SharedAccessSignature sr=https%3a%2f%2feumariothub.servicebus.windows.net%2fdevicemonitoring%2fpublishers%2f1%2fmessages&sig=Insert your key&se=1460220109&skn=Default"));
+            listKeys.Add(new KeyValuePair<string, string>("device2", "SharedAccessSignature sr=https%3a%2f%2feumariothub.servicebus.windows.net%2fdevicemonitoring%2fpublishers%2f2%2fmessages&sig=Insert your key&se=1465172326&skn=Default"));
+            listKeys.Add(new KeyValuePair<string, string>("device3", "SharedAccessSignature sr=https%3a%2f%2feumariothub.servicebus.windows.net%2fdevicemonitoring%2fpublishers%2f3%2fmessages&sig=Insert your key&se=1465172448&skn=Default"));
+            listKeys.Add(new KeyValuePair<string, string>("device4", "SharedAccessSignature sr=https%3a%2f%2feumariothub.servicebus.windows.net%2fdevicemonitoring%2fpublishers%2f4%2fmessages&sig=Insert your key&se=1465172404&skn=Default"));
+            listKeys.Add(new KeyValuePair<string, string>("device5", "SharedAccessSignature sr=https%3a%2f%2feumariothub.servicebus.windows.net%2fdevicemonitoring%2fpublishers%2f5%2fmessages&sig=Insert your key&se=1465172478&skn=Default"));
 
             int count = 0;
             while (count < 50000)
